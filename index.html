@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Planets</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="w-full h-screen overflow-hidden">
+      <div
+        class="w-full h-20 absolute top-0 left-0 z-[2] text-white flex items-center justify-center text-l"
+      >
+        <nav class="py-4 px-10 flex items-center justify-between w-full">
+          <h3>PLANETS</h3>
+          <div class="flex gap-6">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+          </div>
+        </nav>
+      </div>
+
+      <div
+        class="overflow-hidden h-[6em] absolute mt-[6%] left-1/2 -translate-x-1/2 text-center font-['bellina']"
+      >
+        <div class="heading w-full h-[6em]">
+          <h1 class="h-full text-white text-8xl font-light tracking-lighter">
+            Earth
+          </h1>
+          <h1 class="h-full text-white text-8xl font-light tracking-lighter">
+            Mars
+          </h1>
+          <h1 class="h-full text-white text-8xl font-light tracking-lighter">
+            Volcanic
+          </h1>
+          <h1 class="h-full text-white text-8xl font-light tracking-lighter">
+            Venus
+          </h1>
+        </div>
+      </div>
+      <p
+        class="text-white absolute mt-[13%] left-1/2 -translate-x-1/2 font-['Poppins'] hidden lg:block"
+      >
+        Welcome to the 3D world of planets
+      </p>
+      <div
+        class="w-60 h-px bg-gradient-to-r from-transparent via-white to-transparent absolute mt-[15%] left-1/2 -translate-x-1/2 hidden lg:block"
+      ></div>
+
+      <canvas id="canvas" class="w-full z-[1]"></canvas>
+    </div>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
