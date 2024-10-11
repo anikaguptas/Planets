@@ -15,6 +15,7 @@
     "vite": "^5.4.8"
   },
   "dependencies": {
+    "fontawesome": "^5.6.3",
     "gsap": "^3.12.5",
     "jsap": "^2.0.0",
     "three": "^0.169.0"
